@@ -1,0 +1,16 @@
+export const SET_LOGIN_PENDING = 'SET_LOGIN_PENDING';
+export const SET_LOGIN_SUCCESS = 'SET_LOGIN_SUCCESS';
+export const SET_LOGIN_ERROR = 'SET_LOGIN_ERROR';
+export const SET_NEWS_ERROR = 'SET_NEWS_ERROR';
+export const SET_NEWS = 'SET_NEWS';
+export const SELECTED_VIDEO = 'SELECTED_VIDEO';
+export const SELECTED_NEWS = 'SELECTED_NEWS';
+export const GET_MY_PROFILE = 'GET_MY_PROFILE';
+export const SET_MY_PROFILE = 'SET_MY_PROFILE';
+export const SET_PROGRESS = 'SET_PROGRESS';
+
+export const SET_CATEGORIES = 'SET_CATEGORIES';
+export const SET_COUNTRIES = 'SET_COUNTRIES';
+export const SET_TYPES = 'SET_TYPES';
+export const SET_LOCALITIES = 'SET_LOCALITIES';
+
