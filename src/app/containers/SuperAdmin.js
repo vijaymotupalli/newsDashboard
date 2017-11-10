@@ -3,7 +3,7 @@ import { setLoginSuccess } from "../actions/index";
 import {connect} from "react-redux";
 import Menu from './Menu'
 import Newmenu from './Newmenu'
-import Videos from './Videos'
+import Videos from './News'
 import Myprofile from './Myprofile'
 import Data from './Data'
 import Admins from './Admins'
@@ -29,7 +29,7 @@ class Admin extends React.Component {
                 {/*<div ><Route  component={Menu} /></div>*/}
                 <div ><Route  component={Newmenu} /></div>
                 <div  id="toggleMenu">
-                    <Route exact  path= {match.url+'/videos' } component={Videos} />
+                    {/*<Route exact  path= {match.url+'/videos' } component={Videos} />*/}
                     {/*<Route exact  path= {match.url+'/myprofile' } component={Myprofile} />*/}
                     {/*<Route exact  path= {match.url+'/admins' } component={Admins} />*/}
                     {/*<Route exact  path= {match.url+'/users' } component={Users} />*/}

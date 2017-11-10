@@ -772,7 +772,7 @@ export function editNews(news) {
     return  dispatch => {
         return new Promise (function (resolve,reject) {
             var authToken = ADMIN_TOKEN_TYPE+" "+AUTH_TOKEN
-            put(NEWS_URL+"/"+news.videoId,authToken,news).then(function (news) {
+            put(NEWS_URL+"/"+news.newsId,authToken,news).then(function (news) {
                 dispatch(getNews());
                 resolve()
             },function (error) {

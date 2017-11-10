@@ -45,8 +45,11 @@ class SuperAdminLogin extends React.Component {
                                 <form className="login-form" onSubmit={this.onSubmit}>
                                     <div className="form-group">
                                         <label htmlFor="exampleInputEmail1" className="text-uppercase">Username</label>
-                                        <input type="text" className="form-control" placeholder="Enter Email"
-                                               onChange={e => this.setState({email: e.target.value})} value={this.state.email}/>
+
+                                        <i className="fa fa-envelope-o" />
+                                            <input type="text" className="form-control" placeholder="Enter Email"
+                                                   onChange={e => this.setState({email: e.target.value})} value={this.state.email}
+                                            />
 
                                     </div>
                                     <div className="form-group">

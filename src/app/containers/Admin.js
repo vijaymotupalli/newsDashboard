@@ -3,7 +3,7 @@ import { setLoginSuccess } from "../actions/index";
 import {connect} from "react-redux";
 import Menu from './Menu'
 import Newmenu from './Newmenu'
-import Videos from './Videos'
+import Videos from './News'
 import Myprofile from './Myprofile'
 import { BrowserRouter,Route ,Redirect} from 'react-router-dom'
 import './styles.css'
